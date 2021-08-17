@@ -12,6 +12,15 @@
       <rd:SecurityType>Integrated</rd:SecurityType>
       <rd:DataSourceID>695af191-fc76-4b19-85c4-dc045e2c02dd</rd:DataSourceID>
     </DataSource>
+    <DataSource Name="AdventureWorks2012">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=LAPTOP-BELINDA;Initial Catalog=AdventureWorks2012</ConnectString>
+        <IntegratedSecurity>true</IntegratedSecurity>
+      </ConnectionProperties>
+      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:DataSourceID>2f391ae1-96a3-4924-a3af-f4a5c9dc6a1b</rd:DataSourceID>
+    </DataSource>
   </DataSources>
   <DataSets>
     <DataSet Name="AdventureWorksDataset">
